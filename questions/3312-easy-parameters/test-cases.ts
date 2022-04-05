@@ -1,4 +1,5 @@
-import { Equal, Expect, ExpectFalse, NotEqual } from '@type-challenges/utils'
+import { Equal, Expect } from '@type-challenges/utils'
+import { MyParameters } from './template'
 
 const foo = (arg1: string, arg2: number): void => {}
 const bar = (arg1: boolean, arg2: {a: 'A'}): void => {}
