@@ -1,1 +1,1 @@
-type Unshift<T, U> = any
+export type Unshift<T extends unknown[], U> = [U, ...T]
