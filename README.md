@@ -1,3 +1,8 @@
+# My solutions
+Each challenge has a `template.ts` file in which you can find my own solution
+
+<hr>
+
 <p align='center'>
   <img src='./screenshots/logo.svg' width='400'/>
 </p>
