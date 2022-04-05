@@ -1,4 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
+import { First } from './template'
 
 type cases = [
   Expect<Equal<First<[3, 2, 1]>, 3>>,
