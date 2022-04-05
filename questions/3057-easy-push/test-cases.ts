@@ -1,4 +1,5 @@
-import { Equal, Expect, ExpectFalse, NotEqual } from '@type-challenges/utils'
+import { Equal, Expect } from '@type-challenges/utils'
+import { Push } from './template'
 
 type cases = [
   Expect<Equal<Push<[], 1>, [1]>>,
