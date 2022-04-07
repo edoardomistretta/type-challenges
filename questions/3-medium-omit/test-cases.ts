@@ -1,9 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
-
-type cases = [
-  Expect<Equal<Expected1, MyOmit<Todo, 'description'>>>,
-  Expect<Equal<Expected2, MyOmit<Todo, 'description' | 'completed'>>>
-]
+import { MyOmit } from './template'
 
 interface Todo {
   title: string
@@ -19,3 +15,8 @@ interface Expected1 {
 interface Expected2 {
   title: string
 }
+
+type cases = [
+  Expect<Equal<Expected1, MyOmit<Todo, 'description'>>>,
+  Expect<Equal<Expected2, MyOmit<Todo, 'description' | 'completed'>>>
+]
