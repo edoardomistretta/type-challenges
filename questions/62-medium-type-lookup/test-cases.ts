@@ -1,4 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
+import { LookUp } from './template'
 
 interface Cat {
   type: 'cat'
