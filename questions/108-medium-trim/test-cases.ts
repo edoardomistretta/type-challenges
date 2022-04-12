@@ -1,4 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
+import { Trim } from './template'
 
 type cases = [
   Expect<Equal<Trim<'str'>, 'str'>>,
