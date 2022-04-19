@@ -1,4 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
+import { AppendArgument } from './template'
 
 type Case1 = AppendArgument<(a: number, b: string) => number, boolean>
 type Result1 = (a: number, b: string, x: boolean) => number
